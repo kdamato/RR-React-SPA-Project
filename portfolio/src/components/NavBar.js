@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#" link= "./Home">Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -16,20 +16,23 @@ function NavBar() {
             navbarScroll
           >
             <Nav.Link href="#action1">About me</Nav.Link>
-            <Nav.Link href="#action2">Work History</Nav.Link>
+            <Nav.Link href="#action2">Education</Nav.Link>
             <NavDropdown title="More" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Hobbies</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Work History</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Education
+                Github
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
-                Training
+                Hobbies
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action6">
+                Contact Me
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action7">
+                Contact Form
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Contact
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
